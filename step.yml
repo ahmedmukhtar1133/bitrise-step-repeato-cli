@@ -69,7 +69,7 @@ inputs:
       title: "Workspace Git Repository URL"
       summary: Repeato CLI need workspace path for setting up the workspace before executing batch.
       is_required: true
-  - batch_id: 0
+  - batch_id: e2313480-9002-5ce5-96e9-aecdbf36475b
     opts:
       title: "Repeato Batch ID"
       summary: Provide batch id for the tests execution.

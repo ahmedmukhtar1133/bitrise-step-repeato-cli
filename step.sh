@@ -28,7 +28,8 @@ nvm use 14.18 >/dev/null 2>&1
 # start repeato batch run tests
 rm -rf batch-report
 cd repeato-cli
-node testrun.js --workspaceDir "../workspace-tests" --batchId 0 --outputDir "../batch-report"
+# node testrun.js --workspaceDir "../workspace-tests" --batchId 0 --outputDir "../batch-report"
+node testrun.js --licenseKey "unlimited82eac20c3f31aa0d3d" --workspaceDir "../workspace-tests" --batchId "e2313480-9002-5ce5-96e9-aecdbf36475b" --outputDir "../batch-report" --logLevel DEBUG
 ls
 cd .. && ls
 

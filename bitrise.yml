@@ -30,7 +30,7 @@ workflows:
         run_if: true
         inputs:
         - workspace_repo_url: https://github.com/repeato-qa/demo-workspace.git
-        - batch_id: 0
+        - batch_id: e2313480-9002-5ce5-96e9-aecdbf36475b
     - script:
         inputs:
         - content: |
